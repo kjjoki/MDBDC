@@ -7,7 +7,7 @@ The software utilizes OpenMP at each round of 'main iteration' to calculate subp
 
 The software is free for academic teaching and research purposes but I ask you to refer the reference given below if you use it. To use the software modify tmdbdc.f95 and functions.f95 as needed. If you have any questions concerning the software, please contact directly the author Kaisa Joki (email: kjjoki@utu.fi).
 
-# Codes include:        
+# Code include:        
                                                                                               
 tmdbdc.f95         - Main program for MDBDC     
 
