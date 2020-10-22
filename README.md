@@ -1,7 +1,7 @@
 # MDBDC
 The multiobjective double bundle method for constrained DC opitmization
 
-MDBDC is a multiobjective double bundle solver (Fortran 95) for constrained nonsmooth multiobjective programming by K. Joki and O. Montonen. MDBDC is able to handle problems having objective and constraint functions which can be presented as a difference of two convex (DC) functions. The method is a descent type and it generalizes the ideas of DBDC to multiobjective and constraint case. Solutions obtained are guaranteed to be weakly Pareto stationary.
+MDBDC is a multiobjective double bundle solver (Fortran 95) for constrained nonsmooth multiobjective programming by Kaisa Joki and Outi Montonen. MDBDC is able to handle problems having objective and constraint functions which can be presented as a difference of two convex (DC) functions. The method is a descent type and it generalizes the ideas of DBDC to multiobjective and constraint case. Solutions obtained are guaranteed to be weakly Pareto stationary.
 
 The software utilizes OpenMP at each round of 'main iteration' to calculate subproblems in parallel. To turn down OpenMP, see instructions in tmpbdc.f95. In addition, there is a possibility to use simple stepsize determination after each 'main iteration'. The software uses code PLQDF1 by Prof. Ladislav Luksan to solve quadratic direction finding problem.
 
