@@ -26,6 +26,6 @@ plqdf1.f           - Quadratic solver by Ladislav Luksan
 Makefile           - Makefile                                                      
                                                                                               
                                                                                 
-# References:                                                                        
+# Reference:                                                                        
                                                                                               
 [1] Outi Montonen and Kaisa Joki: "Bundle-based descent method for nonsmooth multiobjective DC optimization with inequality constraint". Journal of Global Optimization, 72 (2018), 403–429. https://doi.org/10.1007/s10898-018-0651-0                                      
